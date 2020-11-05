@@ -1,6 +1,6 @@
 from __future__ import print_function
 from threading import Thread, Event
-import queue, Empty
+from multiprocessing import queue, Empty
 
 
 class DataThread(Thread):
